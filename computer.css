@@ -82,6 +82,7 @@
 
     #section-2 .content .mid-container {
         height: 50%;
+        flex-direction: row;
     }
 
     #section-3 {
@@ -171,6 +172,7 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
+        flex-direction: row;
     }
     
     #section-4 .content .mid-container .tile {

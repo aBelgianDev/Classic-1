@@ -234,7 +234,7 @@ input {
 }
 
 #section-2 .content .mid-container {
-    flex-direction: row;
+    flex-direction: column;
 }
 
 #section-2 .content .mid-container .card {
@@ -334,10 +334,11 @@ input {
 
 #section-4 .content .mid-container .details {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 #section-4 .content .mid-container .tile {
@@ -345,6 +346,7 @@ input {
     padding: 10px;
     border-left: 1px solid #606f8627;
     margin-top: 15px;
+    width: 100%;
 }
 
 
