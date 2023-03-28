@@ -1,0 +1,114 @@
+
+
+/* On scroll animations */
+.scroll-class {
+    opacity: 0;
+    /* opacity: 1; */
+}
+
+.sub-scroll-class * {
+    /* opacity: 1; */
+    opacity: 0;
+}
+
+.sub-scroll-class .animation.is-inview {
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+}
+
+.scroll-class.is-inview {
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+}
+
+#section-1 .content .left-container form {
+    transition-delay: 1s;
+}
+.sub-scroll-class.is-inview .animation * {
+    opacity: 1;
+}
+
+#section-1 .content .right-container .presentation h1 {
+    transition-delay: 0s;
+}
+
+#section-1 .content .right-container .presentation p {
+    transition-delay: 0.5s;
+}
+
+.sub-scroll-class.is-inview .animation.animation-position-1,
+.scroll-class.is-inview.animation-position-1 {
+    transition-delay: 0.3s;
+}
+
+.sub-scroll-class.is-inview .animation.animation-position-2, 
+.scroll-class.is-inview.animation-position-2 {
+    transition-delay: 0.6s;
+}
+
+.sub-scroll-class.is-inview .animation.animation-position-3,
+.scroll-class.is-inview.animation-position-3 {
+    transition-delay: 0.9s;
+}
+
+.sub-scroll-class.is-inview .animation.animation-position-4,
+.scroll-class.is-inview.animation-position-4 {
+    transition-delay: 1.2s;
+}
+
+.sub-scroll-class.is-inview .animation.animation-position-5,
+.scroll-class.is-inview.animation-position-5 {
+    transition-delay: 1.5s;
+}
+
+.sub-scroll-class.is-inview .animation.animation-position-6,
+.scroll-class.is-inview.animation-position-6 {
+    transition-delay: 1.8s;
+}
+
+.sub-scroll-class.is-inview .animation.animation-position-7,
+.scroll-class.is-inview.animation-position-7 {
+    transition-delay: 2.1s;
+}
+
+
+/* hover-effects */
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: 
+  #0087ca;
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+/* Keyframes animations */
+
+@keyframes header-apparition {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+  }

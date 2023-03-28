@@ -1,0 +1,106 @@
+@media screen and (min-width:769px) and (max-width:1279px) {
+    * {
+        /* border: 1px solid rgb(214, 138, 135); */
+    }
+
+    p {
+        font-size: 1.5vw;
+    }
+
+    a {
+        font-size: 1.5vw;
+    }
+
+    h1 {
+        font-size: 4vw;
+    }
+
+    h2 {
+        font-size: 3vw;
+    }
+
+    h3 {
+        font-size: 2vw;
+    }
+
+    input {
+        font-size: 1.5vw;
+    }
+
+    #section-3 .content .mid-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 80% !important;
+        transform: translateY(0px)!important;
+    }
+
+    #section-3 .content .mid-container .image-placeholder {
+        margin: 0;
+    }
+
+    #section-3 .content .mid-container #first-segment {
+        order: 2;
+        width: 50%;
+        height: 50%;
+        flex-grow: 0;
+        justify-content: flex-start;
+    }
+
+    #section-3 .content .mid-container #first-segment .image-placeholder {
+        width: 80%;
+        min-width: 80%;
+        height: 60%;
+    }
+
+    #section-3 .content .mid-container #second-segment {
+        order: 1;
+        width: 100%;
+        height: 50%;
+        flex-grow: 0;
+    }
+
+    #section-3 .content .mid-container #second-segment .image-placeholder:nth-child(1) {
+        width: 30%;
+        min-width: 30%;
+        height: 50%;
+    }
+
+    #section-3 .content .mid-container #second-segment .image-placeholder:nth-child(2) {
+        width: 50%;
+        min-width: 50%;
+        height: 50%;
+    }
+
+    #section-3 .content .mid-container #second-segment .image-placeholder:nth-child(3) {
+        width: 50%;
+        min-width: 50%;
+        height: 50%;
+    }
+
+    #section-3 .content .mid-container #second-segment .image-placeholder:nth-child(4) {
+        width: 30%;
+        min-width: 30%;
+        height: 50%;
+    }
+
+    #section-3 .content .mid-container #third-segment {
+        order: 3;
+        width: 50%;
+        height: 50%;
+        flex-grow: 0;
+        justify-content: flex-start;
+    }
+
+    #section-3 .content .mid-container #third-segment .image-placeholder {
+        width: 80%;
+        min-width: 80%;
+        height: 60%;
+    }
+
+    .inter-section,
+    #footer {
+        height: 100vh;
+        max-height: 100vh;
+        min-height: 100vh;
+    }
+}

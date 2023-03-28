@@ -1,0 +1,96 @@
+.content .mid-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-grow: 2;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#section-2 .content .mid-container .card {
+    padding: 10px;
+    border-left: 1px solid #606f867e;
+}
+
+#section-2 .content .mid-container .card p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#section-2 .content .mid-container .card a {
+    color: #4378AC;
+}
+
+#section-3 .content .mid-container .segment {
+    height: 100%;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section-3 .content .mid-container #first-segment {
+    flex-grow: 1;
+    min-width: 30%;
+    flex-direction: column;
+}
+
+#section-3 .content .mid-container #first-segment .image-placeholder {
+    align-self: flex-end;
+}
+
+#section-3 .content .mid-container #second-segment {
+    flex-grow: 2;
+    flex-wrap: wrap;
+}
+
+#section-3 .content .mid-container #second-segment .image-placeholder:nth-child(1) {
+    min-width: 60%;
+    height: 250px;
+    align-self: flex-end;
+}
+#section-3 .content .mid-container #second-segment .image-placeholder:nth-child(2) {
+    align-self: flex-end;
+    min-width: 20%;
+    max-width: 25%;
+}
+
+#section-3 .content .mid-container #second-segment .image-placeholder:nth-child(3) {
+    align-self: flex-start;
+    min-width: 20%;
+    max-width: 25%;
+}
+
+#section-3 .content .mid-container #second-segment .image-placeholder:nth-child(4) {
+    min-width: 60%;
+    height: 250px;
+    align-self: flex-start;
+}
+
+#section-3 .content .mid-container #third-segment {
+    flex-grow: 1;
+    min-width: 30%;
+    flex-direction: column;
+}
+
+#section-3 .content .mid-container #third-segment .image-placeholder {
+    align-self: flex-start;
+}
+
+#section-4 .content .mid-container .tile {
+    width: 40%;
+    padding: 20px;
+}
+
+#section-5 .content .mid-container .question {
+    margin-top: 25px;
+    margin-top: 25px;
+}
+
+#section-5 .content .mid-container .question .answer {
+    background-color: #F0F4F7;
+    padding: 25px;
+    margin-top: 25px;
+    margin-top: 25px;
+}

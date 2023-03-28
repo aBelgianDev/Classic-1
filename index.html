@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="animation.css">
+    <link rel="stylesheet" href="locomotive-scroll.css">
+    <!-- <link rel="stylesheet" href="smartphones.css"> -->
+    <!-- <link rel="stylesheet" href="phones.css"> -->
+    <!-- <link rel="stylesheet" href="style.css">  -->
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="laptops.css">
+    <link rel="stylesheet" href="computer.css">
+    <title>Classic Layout</title>
+</head>
+<body>
+    <div id="header">
+        <span id="logo">
+            <p id="logo-innertext">
+                LOGO
+            </p>
+        </span>
+        <ul id="navbar">
+            <li><a class="hover-underline-animation" href="#" onclick="goTo('#section-1')">Home</a> </li>
+            <li><a class="hover-underline-animation" href="#" onclick="goTo('#section-2')">Features</a></li>
+            <li><a class="hover-underline-animation" href="#" onclick="goTo('#section-3')">Gallery</a></li>
+            <li><a class="hover-underline-animation" href="#" onclick="goTo('#section-4')">Options</a></li>
+            <li><a class="hover-underline-animation" href="#" onclick="goTo('#section-5')">FAQ</a></li>
+        </ul>
+    </div>
+    <div data-scroll-container class="scroll-container">
+
+        <section data-scroll-section class="sections" id="section-1">
+            <div data-scroll-section class="content">
+                <div data-scroll class="mid-container">
+                    <div data-scroll class="left-container">
+                        <form data-scroll data-scroll-speed="6" class="scroll-class" id="contact-form" action="#">
+                            <input class="input" type="text" name="firstname" id="fname" placeholder="Your name...">
+                            <input class="input" type="text" name="firstname" id="fname" placeholder="Your last name...">
+                            <input class="input" type="email" name="firstname" id="fname" placeholder="my-mail@mail.com">
+                            <input class="btn" type="submit" value="Contact Me Now">
+                        </form>
+                    </div>
+                    <div data-scroll class="right-container">
+                        <div data-scroll class="presentation">
+                            <h1 data-scroll class="scroll-class">Website Wireframe <br>Landing Page.</h1>
+                            <p data-scroll data-scroll-speed="2" class="scroll-class">Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> 
+                                Vero veritatis tempore laboriosam minus numquam dolores qui, <br> 
+                                sapiente quas quos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section data-scroll-section class="sections" id="section-2">
+            <div data-scroll class="content">
+                <div data-scroll class="top-container">
+                    <div data-scroll class="presentation scroll-class">
+                        <h1 data-scroll>Features</h1>
+                        <p data-scroll>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Vero veritatis tempore laboriosam <br> minus numquam dolores qui. 
+                            sapiente quas quos.
+                        </p>
+                    </div>
+                </div>
+                <div data-scroll class="mid-container" data-scroll-speed="1">
+                    <div data-scroll class="card scroll-class animation-position-1">
+                        <h3 data-scroll>Heading</h3>
+                        <p data-scroll>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit optio quae voluptates sapiente, expedita sit ea excepturi, fugiat</p>
+                        <a data-scroll href="#">Learn More</a>
+                    </div>
+                    <div data-scroll class="card scroll-class animation-position-2">
+                        <h3 data-scroll>Heading</h3>
+                        <p data-scroll>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit optio quae voluptates sapiente, expedita sit ea excepturi, fugiat</p>
+                        <a data-scroll href="#">Learn More</a>
+                    </div>
+                    <div data-scroll class="card scroll-class animation-position-3">
+                        <h3 data-scroll>Heading</h3>
+                        <p data-scroll>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit optio quae voluptates sapiente, expedita sit ea excepturi, fugiat</p>
+                        <a data-scroll href="#">Learn More</a>
+                    </div>
+                    <div data-scroll class="card scroll-class animation-position-4">
+                        <h3 data-scroll>Heading</h3>
+                        <p data-scroll>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit optio quae voluptates sapiente, expedita sit ea excepturi, fugiat</p>
+                        <a data-scroll href="#">Learn More</a>
+                    </div>
+                </div>
+                <div data-scroll class="bottom-container scroll-class animation-position-4" data-scroll-speed="4">
+                    <a class="btn" data-scroll href="#">Learn More</a>
+                </div>
+            </div>
+        </section>
+        <section data-scroll-section class="sections" id="section-3">
+            <div data-scroll class="content">
+                <div data-scroll class="top-container">
+                    <div data-scroll class="presentation scroll-class">
+                        <h1 data-scroll>Gallery</h1>
+                        <p data-scroll>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Vero veritatis tempore laboriosam <br> minus numquam dolores qui. 
+                            sapiente quas quos.
+                        </p>
+                    </div>
+                </div>
+                <div data-scroll class="mid-container" data-scroll-speed="4">
+                    <div data-scroll class="segment sub-scroll-class" id="first-segment">
+                        <div data-scroll class="image-placeholder animation animation-position-1"></div>
+                    </div>
+                    <div data-scroll class="segment sub-scroll-class" id="second-segment">
+                        <div data-scroll class="image-placeholder animation animation-position-3"></div>
+                        <div data-scroll class="image-placeholder animation animation-position-5"></div>
+                        <div data-scroll class="image-placeholder animation animation-position-6"></div>
+                        <div data-scroll class="image-placeholder animation animation-position-4"></div>
+                    </div>
+                    <div data-scroll class="segment sub-scroll-class" id="third-segment">
+                        <div data-scroll class="image-placeholder animation animation-position-2"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section data-scroll-section class="sections" id="section-4">
+            <div data-scroll class="content">
+                <div data-scroll class="top-container">
+                    <div data-scroll class="presentation scroll-class">
+                        <h1 data-scroll>Special Options</h1>
+                        <p data-scroll>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Vero veritatis tempore laboriosam <br> minus numquam dolores qui. 
+                            sapiente quas quos.
+                        </p>
+                    </div>
+                    <ul data-scroll id="options" class="sub-scroll-class">
+                        <li data-scroll class="animation animation-position-1"><a href="#">Option 1</a></li>
+                        <li data-scroll class="animation animation-position-2"><a href="#">Option 2</a></li>
+                        <li data-scroll class="animation animation-position-3"><a href="#">Option 3</a></li>
+                    </ul>
+                </div>
+                <div data-scroll class="mid-container">
+                    <div data-scroll class="details sub-scroll-class" data-scroll-speed="4">
+                        <div data-scroll class="tile animation animation-position-1">
+                            <h3 data-scroll>Heading</h3>
+                            <p data-scroll>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit optio quae voluptates sapiente, expedita sit ea excepturi, fugiat</p>
+                        </div>
+                        <div data-scroll class="tile animation animation-position-2">
+                            <h3 data-scroll>Heading</h3>
+                            <p data-scroll>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit optio quae voluptates sapiente, expedita sit ea excepturi, fugiat</p>
+                        </div>
+                        <div data-scroll class="tile animation animation-position-3">
+                            <h3 data-scroll>Heading</h3>
+                            <p data-scroll>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit optio quae voluptates sapiente, expedita sit ea excepturi, fugiat</p>
+                        </div>
+                        <div data-scroll class="tile animation animation-position-4">
+                            <h3 data-scroll>Heading</h3>
+                            <p data-scroll>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit optio quae voluptates sapiente, expedita sit ea excepturi, fugiat</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section data-scroll-section class="inter-section">
+            <div data-scroll class="content sub-scroll-class">
+                <div data-scroll class="presentation animation animation-position-1 sub-scroll-class">
+                    <h1 data-scroll class="offer animation animation-position-2">Special Offers for You</h1>
+                    <p data-scroll class="animation animation-position-3">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero veritatis 
+                        <br> tempore laboriosam minus numquam.
+                    </p>
+                </div>
+                <a data-scroll data-scroll-speed="2" class="btn animation animation-position-2" href="#">Learn More</a>
+            </div>
+        </section>
+        <section data-scroll-section class="sections" id="section-5">
+            <div data-scroll class="content">
+                <div data-scroll class="top-container">
+                    <div data-scroll class="presentation scroll-class">
+                        <h1 data-scroll>FAQ</h1>
+                        <p data-scroll>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Vero veritatis tempore laboriosam <br> minus numquam dolores qui. 
+                            sapiente quas quos.
+                        </p>
+                    </div>
+                </div>
+                <div data-scroll class="mid-container sub-scroll-class">
+                    <div data-scroll class="question animation animation-position-1">
+                        <h3 data-scroll class="title">Question 1</h3>
+                        <div data-scroll class="answer">
+                            <h2 data-scroll>Lorem, ipsum dolor sit amet ?</h2>
+                            <p data-scroll>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Vero veritatis tempore laboriosam <br> minus numquam dolores qui. 
+                                sapiente quas quos.
+                            </p>
+                        </div>
+                    </div>
+                    <div data-scroll class="question animation animation-position-2">
+                        <h3 data-scroll class="title">Question 2</h3>
+                    </div>
+                    <div data-scroll class="question animation animation-position-3">
+                        <h3 data-scroll class="title">Question 3</h3>
+                    </div>
+                    <div data-scroll class="question animation animation-position-4">
+                        <h3 data-scroll class="title">Question 4</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section data-scroll-section class="sections" id="footer">
+            <div data-scroll class="card scroll-class">
+                <h2 data-scroll class="title">Questions ?</h2>
+                <p data-scroll>Lorem, ipsum dolor sit amet consectetur.</p>
+                <form data-scroll id="question-form" action="#">
+                    <input data-scroll class="input" type="text" name="firstname" id="fname" placeholder="Your name...">
+                    <input data-scroll class="btn" type="submit" value="Contact Me Now">
+                </form>
+            </div>
+        </section>
+        <div data-scroll-section class="copyright">
+            <p class="scroll-class" data-scroll>All rights reserved.</p>
+        </div>
+    </div>
+    <span class="c-scrollbar">
+        <span class="c-scrollbar_thumb">
+        </span>
+    </span>
+</body>
+<script src="locomotive-scroll.min.js"></script>
+<script src="scripts.js"></script>
+<script>
+    var scroll = initLocomotive();
+
+    function goTo(domtarget) {
+        console.log('hello')
+        const target = document.querySelector(domtarget);
+        return scroll.scrollTo(target);
+    };
+</script>
+</html>

@@ -1,0 +1,206 @@
+@media screen and (max-width:481px) {
+    * {
+        /* border: none; */
+        border: 1px solid rgb(214, 213, 135);
+    }
+
+    p {
+        font-size: 3vw;
+    }
+
+    a {
+        font-size: 3vw;
+    }
+
+    h1 {
+        font-size: 6vw;
+    }
+
+    h2 {
+        font-size: 5vw;
+    }
+
+    h3 {
+        font-size: 4vw;
+    }
+
+    input {
+        font-size: 3vw;
+    }
+
+    .sections {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .content .mid-container {
+        flex-direction: column;
+    }
+
+    #section-1 .content .mid-container .right-container,
+    #section-1 .content .mid-container .left-container {
+        width: 80%;
+    }
+
+    #section-1 .content .mid-container .right-container {
+        order: 1;
+    }
+
+    #section-1 .content .mid-container .right-container .presentation {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    #section-1 .content .mid-container .left-container {
+        order: 2;
+    }
+
+    #section-1 .content .mid-container .left-container #contact-form {
+        width: 80%;
+    }
+
+    #section-1 .content .mid-container .left-container #contact-form input {
+        margin: 1vh;
+    }
+
+    .sections .content .top-container {
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+    }
+
+    #section-2 .content .mid-container {
+        flex-direction: column;
+    }
+
+    #section-2 .content .mid-container .card {
+        width: 80%;
+        padding: 1vh;
+    }
+
+    #section-2 .content .mid-container .card p {
+        padding: 1vh;
+    }
+
+    #section-2 .content .bottom-container {
+        transform: translateY(0px)!important;
+        padding-top: 1vh;
+        padding-bottom: 0;
+        height: fit-content;
+    }
+
+    #section-3 .content {
+        height: 100%;
+    }
+
+    #section-3 .content .top-container {
+        height: 20% !important;
+        margin-top: 0;
+        margin-bottom: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #section-3 .content .mid-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 80% !important;
+        transform: translateY(0px)!important;
+    }
+
+    #section-3 .content .mid-container .image-placeholder {
+        margin: 0;
+    }
+
+    #section-3 .content .mid-container #first-segment {
+        order: 2;
+        width: 50%;
+        height: 50%;
+        flex-grow: 0;
+        justify-content: flex-start;
+    }
+
+    #section-3 .content .mid-container #first-segment .image-placeholder {
+        width: 80%;
+        min-width: 80%;
+        height: 60%;
+    }
+
+    #section-3 .content .mid-container #second-segment {
+        order: 1;
+        width: 100%;
+        height: 50%;
+        flex-grow: 0;
+    }
+
+    #section-3 .content .mid-container #second-segment .image-placeholder:nth-child(1) {
+        width: 30%;
+        min-width: 30%;
+        height: 50%;
+    }
+    #section-3 .content .mid-container #second-segment .image-placeholder:nth-child(2) {
+        width: 50%;
+        min-width: 50%;
+        height: 50%;
+    }
+    #section-3 .content .mid-container #second-segment .image-placeholder:nth-child(3) {
+        width: 50%;
+        min-width: 50%;
+        height: 50%;
+    }
+    #section-3 .content .mid-container #second-segment .image-placeholder:nth-child(4) {
+        width: 30%;
+        min-width: 30%;
+        height: 50%;
+    }
+
+    #section-3 .content .mid-container #third-segment {
+        order: 3;
+        width: 50%;
+        height: 50%;
+        flex-grow: 0;
+        justify-content: flex-start;
+    }
+
+    #section-3 .content .mid-container #third-segment .image-placeholder {
+        width: 80%;
+        min-width: 80%;
+        height: 60%;
+    }
+
+    #section-4 .content .top-container #options li {
+        padding: 1vh 2vh 1vh 2vh;
+    }
+
+    #section-4 .content .top-container #options li:nth-child(1) {
+        border-top-left-radius: 1vh;
+        border-bottom-left-radius: 1vh;
+    }
+
+    #section-4 .content .top-container #options li:nth-child(3) {
+        border-top-right-radius: 1vh;
+        border-bottom-right-radius: 1vh;
+    }
+
+    .inter-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .inter-section .content {
+        flex-direction: column;
+        margin: 1vh;
+        height: fit-content;
+        width: fit-content;
+    }
+
+    .inter-section .content * {
+        margin: 1vh;
+    }
+
+    #footer .card {
+        padding: 1vh;
+        border-radius: 1vh;
+    }
+}
