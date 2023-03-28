@@ -51,6 +51,10 @@
         margin-top: 5%;
     }
 
+    #header {
+        visibility: visible;
+    }
+
     #section-1 .content .mid-container {
         align-items: flex-start;
         /* justify-content: center; */

@@ -196,6 +196,7 @@ input {
     z-index: 1;
     animation-name: header-apparition;
     animation-duration: 2s;
+    visibility: hidden;
 }
 
 #header #logo {
